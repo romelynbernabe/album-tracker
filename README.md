@@ -4,7 +4,7 @@ A React web app to search albums (iTunes Search API), play 30-second previews, k
 
 **GitHub repository:** https://github.com/romelynbernabe/album-tracker
 
-**Live link:** _Add your Vercel URL after deployment._
+**Live link:** https://album-tracker-omega.vercel.app
 
 ## Features
 - Search albums and artists, view tracks, play 30-second previews
