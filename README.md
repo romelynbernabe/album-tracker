@@ -15,7 +15,14 @@ A React web app to search albums (iTunes Search API), play 30-second previews, k
 - LLM-powered recommendations based on the user's saved albums and ratings
 
 ## Screenshots
-Add screenshots of the search results, album detail, and recommendations pages before submission.
+### Search results
+![Album search results](./screenshots/search-results.png)
+
+### Album detail
+![Album detail with track list and Deezer option](./screenshots/album-detail.png)
+
+### Recommendations
+![Taylor Swift previews and AI album recommendations](./screenshots/recommendations.png)
 
 ## Tech stack
 React, Vite, Context API, iTunes API, Deezer, Gemini, Vercel
@@ -44,9 +51,10 @@ Learning project, not affiliated with Apple, Spotify, Deezer, or Google. Music d
 
 ## Submission checklist
 - [x] Add the GitHub repository URL.
-- [ ] Deploy to Vercel, configure `GEMINI_API_KEY`, and add the live URL above.
-- [ ] Add screenshots for search results, album detail, and recommendations.
-- [ ] Confirm no API key is included in the repository.
+- [x] Deploy to Vercel and add the live URL above.
+- [x] Add screenshots for search results, album detail, and recommendations.
+- [ ] Configure `GEMINI_API_KEY` for Production, Preview, and Development, then verify recommendations on the live site.
+- [x] Confirm no API key is included in the repository.
 
 ## Reflection
 1. The audio element is stored in a ref because it is a persistent browser object, and changing it does not need to trigger a React render. React state separately tracks the information the UI displays, such as the current track and playback progress.
